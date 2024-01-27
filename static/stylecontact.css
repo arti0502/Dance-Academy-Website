@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Sevillana&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.container{
+  
+  min-height: 15vh; 
+  
+  margin-top: 25px ;
+
+}
+.container h1{
+    font-family: 'Cute Font', sans-serif;
+    /* font-family: 'Sevillana', cursive; */
+    font-size: 34px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    
+    font-size:16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid #9d8e8e;
+    border-radius: 12px;
+    outline: none;
+
+}
+.btn{
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: #d43b3b;
+    cursor: pointer;
+    outline: none;
+    margin: 25px;
+    margin-bottom: 90px;
+
+}
